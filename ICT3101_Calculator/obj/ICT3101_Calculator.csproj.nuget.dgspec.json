@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {}
+    "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
+    "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
         "projectName": "ICT3101_Calculator",
-        "projectPath": "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+        "projectPath": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
         "packagesPath": "C:\\Users\\rahee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\obj\\",
+        "outputPath": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahee\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CdBfD1LFkzJ83K4mYvvh3/Zv4NYuMn1MxjASkNjnCbFAffYO/06mOr/9rrbJn2fXzrNMbq7WrDCGzpbXVrjmLQ==",
+  "dgSpecHash": "A+JQs9LtpS+ylXPT5BFv2eKNoauaiesnS6eXCIVZUsuB3rTvF79zKE2idYXK7PTGyOHuAe6Q6v+SChLDhTvtBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahee\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\rahee\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

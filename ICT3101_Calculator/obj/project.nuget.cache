@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aE85vIvduZ0mfw8WiX48o3uimOUI8Qbz1O3s1St+/mrDfDzkPCY2Xdi+FaSSoq8lpxgZaIELx5Qg3D5IlgNUtg==",
+  "dgSpecHash": "tvUr7DmzN9mzf68YgFamnqx6bMmcR0zpQ0Uyk5KtBPvSJan7UhXWEn0hiAc/kQZzhVzD6TatAZPec9HbxN8Hrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 lab2\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahee\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\rahee\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

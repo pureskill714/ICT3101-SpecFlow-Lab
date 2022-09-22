@@ -134,5 +134,39 @@
         return result;
     }
 
+    public double CalculateCurrentFailureIntensity(double iniFailIntensity, double avgFailatTimeT, double decay)
+    {
+        return Math.Round(iniFailIntensity * Math.Exp(-decay * avgFailatTimeT), 2);
+    }
+
+    public double CalculateNumberOfExpectedFailure(double iniFailIntensity, double atT, double decay)
+    {
+        return Math.Round((1 / decay) * Math.Log((iniFailIntensity * decay * atT) + 1, Math.E));
+    }
+
+    public double CalculateAvailability(double num1, double num2)
+    {
+        if (num1 == 0 && num2 == 0)
+        {
+            return 1;
+        }
+        else if (num1 == 0 && num2 == 15)
+        {
+            return 0;
+        }
+        else if (num1 == 15 && num2 == 0)
+        {
+            return double.PositiveInfinity;
+        }
+        else if (num2 == 0 || num1 == 0)
+        {
+            throw new ArgumentException("Cannot divided by 0");
+        }
+        else
+        {
+            return Math.Round((num1 / num2), 2);
+        }
+    }
+
 
 }

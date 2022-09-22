@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xYYmC2BUnDXFokrpSVJkP4zGvMCcx19p9McCwfzRSlQE7lA2RWSOJPR/oTgSqS0FI4FD6LaXwrp7GBL8v/rUgw==",
+  "dgSpecHash": "MPcXHuDzdnyAQ0Kpb50NBYGR+4dd/hFW+sOydY85x053uJEkvtM873kI39gCchlhsghP4ysXEr1NT1vnn636wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 lab2\\SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
+  "projectFilePath": "C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahee\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\rahee\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
