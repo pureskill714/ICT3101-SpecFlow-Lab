@@ -5,7 +5,7 @@
 
 @MTBF
 Scenario: Calculating MTBF
- Given I have a calculator
+ Given I have a calculatora
  When I have entered MTTF value as 200 and MTTR value as 10 into the calculator and press MTBF
  Then the MTBF result should be 210
 

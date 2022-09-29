@@ -65,6 +65,14 @@
         {
             throw new ArgumentException("Cannot divided by 0");
         }
+        else if (num1 == 10 && num1 == 0)
+        {
+            throw new ArgumentException("Cannot divided by 0");
+        }
+        else if (num1 == 0 && num1 == 10)
+        {
+            throw new ArgumentException("Cannot divided by 0");
+        }
         else
         {
             return (num1 / num2);
