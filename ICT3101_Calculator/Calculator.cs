@@ -184,7 +184,7 @@ public class Calculator
         //Dependency------------------------------
         //FileReader getTheMagic = new FileReader();
         //----------------------------------------
-        string[] magicStrings = fileReader.Read("C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\magicNumbers.txt");
+        string[] magicStrings = fileReader.Read("../../../../ICT3101_Calculator/MagicNumbers.txt");
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
             result = Convert.ToDouble(magicStrings[choice]);
