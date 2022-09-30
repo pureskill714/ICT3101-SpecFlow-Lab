@@ -23,18 +23,18 @@ namespace ICT3101_Calculator.UnitTests
         public void TestingPositiveMagicNumbers()
         {
             // Act
-            double result = _calculator.GenMagicNum(0, new FileReader());
+            double result = _calculator.GenMagicNum(0, _mockFileReader);
             // Assert
-            Assert.That(result, Is.EqualTo(6));
+            Assert.That(result, Is.EqualTo(2));
         }
 
         [Test]
         public void TestingNegativeMagicNumbers()
         {
             // Act
-            double result = _calculator.GenMagicNum(3, new FileReader());
+            double result = _calculator.GenMagicNum(3, _mockFileReader);
             // Assert
-            Assert.That(result, Is.EqualTo(10));
+            Assert.That(result, Is.EqualTo(8));
         }
     }
 }
