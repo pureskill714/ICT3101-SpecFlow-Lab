@@ -16,7 +16,7 @@ namespace ICT3101_Calculator.UnitTests
         {
             _mockFileReader = new Mock<IFileReader>();
             _mockFileReader.Setup(fr =>
-            fr.Read("\\Users\\rahee\\Desktop\\3101 Specflow lab\\magicNumbers.txt")).Returns(new string[4] {"1", "2", "3", "4"});
+            fr.Read("C:\\Users\\rahee\\Desktop\\3101 Specflow lab\\magicNumbers.txt")).Returns(new string[4] {"1", "2", "3", "4"});
             _calculator = new Calculator();
         }
 
