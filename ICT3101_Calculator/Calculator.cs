@@ -1,4 +1,6 @@
-﻿public class Calculator
+﻿using ICT3101_Calculator;
+
+public class Calculator
 {
     public Calculator() { }
     public double DoOperation(double num1, double num2, string op)
@@ -175,14 +177,14 @@
             return Math.Round((num1 / num2), 2);
         }
     }
-    public double GenMagicNum(double input)
+    public double GenMagicNum(double input, IFileReader fileReader)
     {
         double result = 0;
         int choice = Convert.ToInt16(input);
         //Dependency------------------------------
-        FileReader getTheMagic = new FileReader();
+        //FileReader getTheMagic = new FileReader();
         //----------------------------------------
-        string[] magicStrings = getTheMagic.Read("\\Users\\rahee\\Desktop\\3101 Specflow lab\\magicNumbers.txt");
+        string[] magicStrings = fileReader.Read("\\Users\\rahee\\Desktop\\3101 Specflow lab\\magicNumbers.txt");
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
             result = Convert.ToDouble(magicStrings[choice]);

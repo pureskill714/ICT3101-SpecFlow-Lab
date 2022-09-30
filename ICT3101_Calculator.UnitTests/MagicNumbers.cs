@@ -23,7 +23,7 @@ namespace ICT3101_Calculator.UnitTests
         public void TestingPositiveMagicNumbers()
         {
             // Act
-            double result = _calculator.GenMagicNum(0);
+            double result = _calculator.GenMagicNum(0, new FileReader());
             // Assert
             Assert.That(result, Is.EqualTo(6));
         }
@@ -32,7 +32,7 @@ namespace ICT3101_Calculator.UnitTests
         public void TestingNegativeMagicNumbers()
         {
             // Act
-            double result = _calculator.GenMagicNum(3);
+            double result = _calculator.GenMagicNum(3, new FileReader());
             // Assert
             Assert.That(result, Is.EqualTo(10));
         }
